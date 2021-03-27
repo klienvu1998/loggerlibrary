@@ -19,3 +19,7 @@ LoggerConfig loggerConfig = LoggerConfig.newBuilder(context)
   .build()
   
  Logger.setConfig(loggerConfig)
+
+#FLOWCHART
+
+ ![image](https://user-images.githubusercontent.com/41892926/112708980-318fda00-8ee8-11eb-9110-04670c50ac78.png)
