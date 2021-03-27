@@ -17,8 +17,8 @@ class Logger {
             baseLogger.setHideAllLog(isHide)
         }
 
-        fun setAdapter(loggerConfig: LoggerConfig) {
-            baseLogger.setAdapter(loggerConfig)
+        fun setConfig(loggerConfig: LoggerConfig) {
+            baseLogger.setConfig(loggerConfig)
         }
 
         fun d(message: String) {

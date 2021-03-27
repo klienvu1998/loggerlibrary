@@ -10,7 +10,7 @@ class BaseLogger: BaseLoggerInterface {
         this.isHideLog = isHideLog
     }
 
-    fun setAdapter(loggerConfig: LoggerConfig) {
+    fun setConfig(loggerConfig: LoggerConfig) {
         this.loggerConfig = loggerConfig
     }
 
