@@ -14,7 +14,7 @@ LoggerConfig loggerConfig = LoggerConfig.newBuilder(context)
 
   .setExportConsole(true)  // show log on console
   
-  .setExportTxt(true)      // save log to txt file into app specific storage
+  .setExportTxt(true)      // save log to txt file into app specific storage (storage/Android/data/com.hyvu.loggerapplication/files/LoggerOutput)
   
   .build()
   
