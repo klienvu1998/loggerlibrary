@@ -14,7 +14,7 @@ LoggerConfig loggerConfig = LoggerConfig.newBuilder(context)
 
   .setExportConsole(true)  // show log on console
   
-  .setExportTxt(true)      // save log to txt file into app specific storage (storage/Android/data/"app-name"/files/LoggerOutput)
+  .setExportTxt(true)      // save log to txt file into app specific storage (.../Android/data/"app-name"/files/LoggerOutput)
   
   .build()
   
